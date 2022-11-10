@@ -2,7 +2,7 @@ kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: ibm-b2bi-psp
-  namespace: default
+  namespace: b2bi-prod
   uid: a8d4182b-1282-4a3c-a2f7-8f52ce664eb6
   resourceVersion: '360511'
   creationTimestamp: '2022-11-10T19:57:28Z'
