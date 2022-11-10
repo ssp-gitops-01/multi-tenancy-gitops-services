@@ -1,5 +1,5 @@
 # (C) Copyright 2019 Syncsort Incorporated. All rights reserved.
-apiVersion: rbac.authorization.k8s.io/v1
+apiVersion: v1
 kind: ClusterRoleBinding
 metadata:
   annotations:
@@ -16,7 +16,7 @@ subjects:
   name: b2bi
   namespace: b2bi-prod
 ---
-apiVersion: rbac.authorization.k8s.io/v1
+apiVersion: v1
 kind: ClusterRoleBinding
 metadata:
   annotations:
